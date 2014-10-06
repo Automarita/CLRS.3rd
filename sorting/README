@@ -1,0 +1,3 @@
+It's a simple "Sorting Algorithm Box" for self-learning.
+"rand_num_gen" to generate a line of random number which may be the input of any sorting process.
+"mysort" is the main program to switch different algorithm to test.

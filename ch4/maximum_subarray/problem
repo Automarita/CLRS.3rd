@@ -1,0 +1,41 @@
+Author: Kwen String
+Time  : 5th October
+From  : Chapter 4, Introduction to the Algorithm (3rd edition)
+**************************Background*****************************
+Definition 1:
+a[i..j] is a subarray of a[](size is n)  IFF
+0<=i<=j<=n-1
+
+Definition 2:
+1. An empty array is a subarray of any array
+2. According by Definition 1
+
+Complementation:
+Accumulating all elements in a subarray is "sum of subarray", sum of an empty array is defined as 0.
+*******************************************************************
+Given an integer array (no more than 1,000,000), and solve problems
+*******************************************************************
+Problem 1:
+Compute the maximum of all the "sum of subarray" and print it the maximum.
+Sample input:
+5
+1 -1 1 1 -1
+
+Sample output:
+2
+*****************************************************************
+Problem 2:
+Print all the subarray that satisfied such condition.  Print each index of start and end in one line by the increase order of the start index.
+Sample input:
+5
+1 -1 1 1 -1
+
+Sample output:
+0 3
+2 3
+*****************************************************************
+
+
+
+
+
