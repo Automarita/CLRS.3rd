@@ -1,6 +1,6 @@
 Author: Kwen String
 Time  : 5th October
-From  : Chapter 4, Introduction to the Algorithm (3rd edition)
+Adaptation From  : Chapter 4
 **************************Background*****************************
 Definition 1:
 a[i..j] is a subarray of a[](size is n)  IFF
@@ -34,8 +34,4 @@ Sample output:
 0 3
 2 3
 *****************************************************************
-
-
-
-
 

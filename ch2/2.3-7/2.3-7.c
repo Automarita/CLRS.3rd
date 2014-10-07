@@ -12,12 +12,9 @@ int cmp(const void* a, const void* b) {
 	return *(int*)a - *(int*)b;
 }
 
-//int binary_search(int a[], int right, int left, int key)  WOOOOW...fuck... - -#
 int binary_search(int a[], int left , int right, int key) 
-
 {
 	int mid;
-	//while(right <= left) {  FFFFUUUUUUCKKKK - -#
 	  while(left <= right) {
 		mid = (right + left) / 2;
 		if(a[mid] == key) return mid;
@@ -36,7 +33,7 @@ int main(void)
 	int key,pos;
 	int no_way_count = 0;
 	
-	scanf("%d", &N);       // Read the input
+	scanf("%d", &N);       
 	for(i=0; i<N; i++) {   
 		scanf("%d", &a[i]);
 	}
@@ -62,3 +59,8 @@ int main(void)
 	}
 	return 0;
 }
+
+
+/*debuglog
+ * confuse the "right" and "left" in function call
+ */
