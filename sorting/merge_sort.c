@@ -18,9 +18,6 @@ void merge (int a[], int start, int mid, int end)
 {
 	int* left = (int*) malloc ((mid-start+2)*sizeof(int));
 	int* right = (int*) malloc ((end-mid+1)*sizeof(int));
-	
-	//You should verified whether allocation is successed
-	
 	int i,j,k;
 
 	for(i=start, k=0; i<=mid; i++) {
@@ -49,5 +46,5 @@ void merge (int a[], int start, int mid, int end)
 	free(left);
 	free(right);
 }
-
+/* Forget to check whether the memory allocation successed*/
 
