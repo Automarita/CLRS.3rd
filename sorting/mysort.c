@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#define MAXN 0xffffff
+#include "include.h"
 
 void quick_sort(int a[], int start, int end);
 void insertion_sort(int a[], int len);
@@ -8,10 +6,11 @@ void binary_insertion_sort(int a[], int len);
 void selection_sort(int a[], int len);
 void bubble_sort(int a[], int len);
 void merge_sort(int a[], int start, int end);
+void heap_sort(int a[], int len);
 
 int a[MAXN];
 int main(int argc, char** argv) {
-	const char PROMPT[120] = "mysort: no specified algorithm.\nUSAGE: mysort {quick|insertion|bi_insertion|selection|bubble|merge}\n";
+	const char PROMPT[120] = "mysort: no specified algorithm.\nUSAGE: mysort {quick|insertion|bi_insertion|selection|bubble|merge|heap}\n";
 
 	if(2 != argc) {
 		printf("%s",PROMPT);
@@ -45,6 +44,9 @@ int main(int argc, char** argv) {
 	}
 	else if ( 0 == strcmp("merge", argv[1]) ) {
 		merge_sort(a, 0, len-1);
+	}
+	else if ( 0 == strcmp("heap", argv[1]) ) {
+		heap_sort(a, len);
 	}
 
 	else {

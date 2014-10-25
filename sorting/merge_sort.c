@@ -1,6 +1,4 @@
-#include <stdlib.h>
-
-#define INF 0x7f7f7f7f
+#include "include.h"
 
 void merge (int a[], int start, int mid, int end);
 
