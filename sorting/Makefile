@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -std=c99 -ansi
+CFLAGS = -Wall -Wextra -Werror -std=c99
 OBJ_MYSORT = mysort.o quick_sort.o selection_sort.o insertion_sort.o bubble_sort.o merge_sort.o heap_sort.o
 OBJ_OTHERS = rand_num_gen.o serial_num_gen.o reverser.o shuffler.o
 all : mysort rand_num_gen serial_num_gen reverser shuffler
