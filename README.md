@@ -1,4 +1,4 @@
-算法导论 随记
+算法导论 第三版 个人学习笔记
 ========
 
 1. 内容
@@ -18,8 +18,7 @@
 
 ![cc](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
-4.[MIT-OCW-6.006-Fall-2011](http://pan.baidu.com/s/1hq03Ngw) Download it GFWalled-Free <br>
-If you don't trust it, you can <br>
+4.[MIT-OCW-6.006-Fall-2011](#)
 `$wget -r --no-parent courses.csail.mit.edu/6.006/fall11/`<br>
 `$wget -r --no-parent people.csail.mit.edu/costan/mit6006/`<br>
  it may consume 8.5GB space, and you can arrange all directories as different lectures.
